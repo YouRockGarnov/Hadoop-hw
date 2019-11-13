@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-OUT_DIR="gyd-110-result"
-NUM_REDUCERS=0
+OUT_DIR="~/gyd-110-result"
+NUM_REDUCERS=1
 
 hdfs dfs -rm -r -skipTrash $OUT_DIR*
 

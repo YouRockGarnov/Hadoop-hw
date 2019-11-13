@@ -14,5 +14,5 @@ for line in input_stream:
     except ValueError as e:
         continue
 
-    id = str(uuid.uuid4()) + id
+    id = str(uuid.uuid4()) + '/' + id
     print(f"{id}", file=output_stream)
